@@ -1,0 +1,89 @@
+/* @font-face {
+    font-family: 'HankenGrotesk-Bold';
+    src: url(./assets/fonts/HankenGrotesk-Bold.ttf)
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-ExtraBold';
+    src: url(./assets/fonts/HankenGrotesk-ExtraBold.ttf)
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk-Medium';
+    src: url(./assets/fonts/HankenGrotesk-medium.ttf)
+    format('truetype');
+} */
+/* ./ vs / vs nothing for path directory  */
+@font-face {
+    font-family: 'HankenGrotesk-VariableFont_wght';
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
+    format('truetype');
+}
+
+
+.container{
+    background-color:teal;
+    font-family: 'HankenGrotesk-VariableFont_wght', sans-serif;
+    display: inline-flex;
+    
+}
+.list-group li{
+border-radius: 50%;
+border: 5px solid teal;
+}
+
+.card{
+
+}
+
+
+.card-img-top{
+
+}
+
+
+/* Second test container 
+
+
+
+*/
+
+
+.container-a{
+margin: 70px;
+}
+
+
+
+.side-results{
+    border-radius: 50%;
+    border: 2px solid #ccc;;
+    width: 130px;
+    height: 130px;
+}
+.list-style li{ 
+border:  2px solid coral;
+width: 300px;
+height: 40px;
+border-radius: 8px;
+/* to hide bullet points  */
+list-style-type: none; 
+}
+
+
+.second-button{
+    border-radius: 23px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* display: flex;
+
+ display: inline-flex;
+
+
+*/
