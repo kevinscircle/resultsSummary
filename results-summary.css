@@ -15,75 +15,148 @@
     src: url(./assets/fonts/HankenGrotesk-medium.ttf)
     format('truetype');
 } */
+
 /* ./ vs / vs nothing for path directory  */
+
 @font-face {
-    font-family: 'HankenGrotesk-VariableFont_wght';
+    font-family: 'HankenGrotesk';
     src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
     format('truetype');
 }
 
 
-.container{
-    background-color:teal;
-    font-family: 'HankenGrotesk-VariableFont_wght', sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    padding-inline-start: 0;
+}
+
+h6{
+    text-align: center;
+}
+
+.main{
+    margin: 70px;
     display: inline-flex;
-    
+    width: 650px;
+    height: 360px;
+    flex-flow: wrap;
+    justify-content: space-between;
+   /* border: solid; */
+   border-radius: 30px;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
-.list-group li{
-border-radius: 50%;
-border: 5px solid teal;
-}
-
-.card{
-
-}
-
-
-.card-img-top{
-
-}
-
-
-/* Second test container 
-
-
-
-*/
-
-
-.container-a{
-margin: 70px;
+.container-left{
+    background-color: hsla(241, 93%, 48%, 0.859);
+    border-radius: 10%;
+    width: 300px;
+    height: 360px;
+    color: white;
+ 
 }
 
 
+.start{
+text-align: center;
+ margin-top: 25px;
+}
 
 .side-results{
     border-radius: 50%;
     border: 2px solid #ccc;;
     width: 130px;
     height: 130px;
+    padding: 10px 10px;
+    margin-left: 88px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+
 }
+
+.card-title{
+    text-align: center
+}
+
+.card-text-test{
+    text-align: center; 
+     width: 230px;
+     margin-left: 35px;
+    }
+
+
+.container-right{
+    width: 300px;
+    height: 360px;
+    display: inline-flex;
+    flex-flow: column;
+    flex-grow: 1;
+  
+    justify-content: right;
+    align-items: center;
+}
+
+.summary-right{
+    margin-right: 225px;
+
+   
+}
+
+
 .list-style li{ 
-border:  2px solid coral;
-width: 300px;
-height: 40px;
-border-radius: 8px;
-/* to hide bullet points  */
-list-style-type: none; 
+    border:  2px solid rgb(74, 123, 98);
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    /* to hide bullet points  */
+    list-style-type: none; 
+    margin-top: 15px;
+    }
+
+ .list-style, li{
+        
+   
+    }
+
+.section{
+ margin-left: 10px   
 }
 
 
-.second-button{
+
+.second-button-test{
     border-radius: 23px;
     width: 300px;
-    padding: 10px;
-    margin: 10px;
+    height: 45px;
+   
 }
 
+.img-margin{
+margin-left: 10px
+}
+/* 
 
-/* display: flex;
 
- display: inline-flex;
+
+
+
+
 
 
 */
